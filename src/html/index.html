@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陈森林的音乐播放器</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- 歌曲封面 -->
+        <div class="cover-picture">
+            <img  alt="">
+        </div>
+
+        <!-- 歌曲信息 -->
+        <div class="description">
+            <h2 class="song-title"></h2>
+            <div class="singer"></div>
+            <div class="album"></div>
+        </div>
+
+        <!-- 提示信息 -->
+        <p class="loading">正在连接...</p>
+
+        <!-- 进度条 -->
+        <div class="progress">
+            <div class="cur-time">00:00</div>
+            <div class="progress-control">
+                <div class="circle"></div>
+                <div class="progressbar"></div>
+                <div class="progressbar-bg"></div>
+            </div>
+            <div class="total-time"></div>
+        </div>
+
+        <!-- 底部菜单 -->
+        <div class="control">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <!-- 歌曲列表弹出 -->
+        <!-- <div class="list">
+            <dl>
+                <dt>播放列表</dt>
+                <dd class="playing">听妈妈的话</dd>
+                <dd>听妈妈的话</dd>
+                <dd>听妈妈的话</dd>
+            </dl>
+            <div class="close">关闭</div>
+        </div> -->
+    </div>
+
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/gaussBlur.js"></script>
+    <script src="../js/render.js"></script>
+    <script src="../js/audio.js"></script>
+    <script src="../js/controlIndex.js"></script>
+    <script src="../js/cuttingSongs.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
